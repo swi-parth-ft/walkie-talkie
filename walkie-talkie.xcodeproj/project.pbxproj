@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070B297328DB88FD00811553 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B296A28DB88FB00811553 /* WelcomeViewController.swift */; };
+		070B297428DB88FD00811553 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B296B28DB88FB00811553 /* LoginViewController.swift */; };
+		070B297528DB88FD00811553 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B296C28DB88FC00811553 /* Message.swift */; };
+		070B297628DB88FD00811553 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B296D28DB88FC00811553 /* RegisterViewController.swift */; };
+		070B297728DB88FD00811553 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B296E28DB88FC00811553 /* MessageCell.swift */; };
+		070B297828DB88FD00811553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070B296F28DB88FC00811553 /* Main.storyboard */; };
+		070B297928DB88FD00811553 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070B297028DB88FD00811553 /* MessageCell.xib */; };
+		070B297A28DB88FD00811553 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B297128DB88FD00811553 /* ChatViewController.swift */; };
+		070B297B28DB88FD00811553 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B297228DB88FD00811553 /* Constants.swift */; };
 		075F80F228DB7CA100F1B80B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F80F128DB7CA100F1B80B /* AppDelegate.swift */; };
 		075F80F428DB7CA100F1B80B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F80F328DB7CA100F1B80B /* SceneDelegate.swift */; };
-		075F80F628DB7CA100F1B80B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F80F528DB7CA100F1B80B /* ViewController.swift */; };
-		075F80F928DB7CA100F1B80B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075F80F728DB7CA100F1B80B /* Main.storyboard */; };
 		075F80FB28DB7CA200F1B80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075F80FA28DB7CA200F1B80B /* Assets.xcassets */; };
 		075F80FE28DB7CA200F1B80B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075F80FC28DB7CA200F1B80B /* LaunchScreen.storyboard */; };
+		075F810628DB7D0000F1B80B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075F810528DB7D0000F1B80B /* GoogleService-Info.plist */; };
+		DDEE70C9C839DB9A9F04B4A8 /* Pods_walkie_talkie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40172CAD5D75A22AFDB656 /* Pods_walkie_talkie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070B296A28DB88FB00811553 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		070B296B28DB88FB00811553 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		070B296C28DB88FC00811553 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		070B296D28DB88FC00811553 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		070B296E28DB88FC00811553 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		070B296F28DB88FC00811553 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		070B297028DB88FD00811553 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		070B297128DB88FD00811553 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		070B297228DB88FD00811553 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../../../../../../Documents/Flash-Chat-iOS13-Completed/Flash Chat iOS13/Constants.swift"; sourceTree = "<group>"; };
 		075F80EE28DB7CA100F1B80B /* walkie-talkie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "walkie-talkie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075F80F128DB7CA100F1B80B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		075F80F328DB7CA100F1B80B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		075F80F528DB7CA100F1B80B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		075F80F828DB7CA100F1B80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		075F80FA28DB7CA200F1B80B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		075F80FD28DB7CA200F1B80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		075F80FF28DB7CA200F1B80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075F810528DB7D0000F1B80B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C40172CAD5D75A22AFDB656 /* Pods_walkie_talkie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walkie_talkie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8C2CD9337D287231690854 /* Pods-walkie-talkie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkie-talkie.debug.xcconfig"; path = "Target Support Files/Pods-walkie-talkie/Pods-walkie-talkie.debug.xcconfig"; sourceTree = "<group>"; };
+		8F35FFDBD3A1A9135885B5A9 /* Pods-walkie-talkie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkie-talkie.release.xcconfig"; path = "Target Support Files/Pods-walkie-talkie/Pods-walkie-talkie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDEE70C9C839DB9A9F04B4A8 /* Pods_walkie_talkie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070B297C28DB8AFF00811553 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				070B297128DB88FD00811553 /* ChatViewController.swift */,
+				070B296B28DB88FB00811553 /* LoginViewController.swift */,
+				070B296D28DB88FC00811553 /* RegisterViewController.swift */,
+				070B296A28DB88FB00811553 /* WelcomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		070B297D28DB8B1300811553 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				070B296F28DB88FC00811553 /* Main.storyboard */,
+				070B296E28DB88FC00811553 /* MessageCell.swift */,
+				070B297028DB88FD00811553 /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		075F80E528DB7CA100F1B80B = {
 			isa = PBXGroup;
 			children = (
 				075F80F028DB7CA100F1B80B /* walkie-talkie */,
 				075F80EF28DB7CA100F1B80B /* Products */,
+				81ABBF4D023A6920B35A6B5D /* Pods */,
+				2D9F8D240A033B88C9FBBC66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +101,34 @@
 			isa = PBXGroup;
 			children = (
 				075F80F128DB7CA100F1B80B /* AppDelegate.swift */,
+				070B297C28DB8AFF00811553 /* Controller */,
+				070B297228DB88FD00811553 /* Constants.swift */,
+				070B297D28DB8B1300811553 /* Views */,
+				070B296C28DB88FC00811553 /* Message.swift */,
 				075F80F328DB7CA100F1B80B /* SceneDelegate.swift */,
-				075F80F528DB7CA100F1B80B /* ViewController.swift */,
-				075F80F728DB7CA100F1B80B /* Main.storyboard */,
 				075F80FA28DB7CA200F1B80B /* Assets.xcassets */,
 				075F80FC28DB7CA200F1B80B /* LaunchScreen.storyboard */,
 				075F80FF28DB7CA200F1B80B /* Info.plist */,
+				075F810528DB7D0000F1B80B /* GoogleService-Info.plist */,
 			);
 			path = "walkie-talkie";
+			sourceTree = "<group>";
+		};
+		2D9F8D240A033B88C9FBBC66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C40172CAD5D75A22AFDB656 /* Pods_walkie_talkie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81ABBF4D023A6920B35A6B5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C2CD9337D287231690854 /* Pods-walkie-talkie.debug.xcconfig */,
+				8F35FFDBD3A1A9135885B5A9 /* Pods-walkie-talkie.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 075F810228DB7CA200F1B80B /* Build configuration list for PBXNativeTarget "walkie-talkie" */;
 			buildPhases = (
+				23A9A4D5F170E2CB4F12E006 /* [CP] Check Pods Manifest.lock */,
 				075F80EA28DB7CA100F1B80B /* Sources */,
 				075F80EB28DB7CA100F1B80B /* Frameworks */,
 				075F80EC28DB7CA100F1B80B /* Resources */,
+				38E1BCC2B449246A46A1A71A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +177,8 @@
 				Base,
 			);
 			mainGroup = 075F80E528DB7CA100F1B80B;
+			packageReferences = (
+			);
 			productRefGroup = 075F80EF28DB7CA100F1B80B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,36 +193,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070B297928DB88FD00811553 /* MessageCell.xib in Resources */,
+				075F810628DB7D0000F1B80B /* GoogleService-Info.plist in Resources */,
 				075F80FE28DB7CA200F1B80B /* LaunchScreen.storyboard in Resources */,
 				075F80FB28DB7CA200F1B80B /* Assets.xcassets in Resources */,
-				075F80F928DB7CA100F1B80B /* Main.storyboard in Resources */,
+				070B297828DB88FD00811553 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A9A4D5F170E2CB4F12E006 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walkie-talkie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38E1BCC2B449246A46A1A71A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-walkie-talkie/Pods-walkie-talkie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-walkie-talkie/Pods-walkie-talkie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-walkie-talkie/Pods-walkie-talkie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		075F80EA28DB7CA100F1B80B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075F80F628DB7CA100F1B80B /* ViewController.swift in Sources */,
+				070B297428DB88FD00811553 /* LoginViewController.swift in Sources */,
+				070B297328DB88FD00811553 /* WelcomeViewController.swift in Sources */,
+				070B297A28DB88FD00811553 /* ChatViewController.swift in Sources */,
+				070B297528DB88FD00811553 /* Message.swift in Sources */,
+				070B297628DB88FD00811553 /* RegisterViewController.swift in Sources */,
 				075F80F228DB7CA100F1B80B /* AppDelegate.swift in Sources */,
 				075F80F428DB7CA100F1B80B /* SceneDelegate.swift in Sources */,
+				070B297728DB88FD00811553 /* MessageCell.swift in Sources */,
+				070B297B28DB88FD00811553 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		075F80F728DB7CA100F1B80B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				075F80F828DB7CA100F1B80B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		075F80FC28DB7CA200F1B80B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +392,7 @@
 		};
 		075F810328DB7CA200F1B80B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8C2CD9337D287231690854 /* Pods-walkie-talkie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +421,7 @@
 		};
 		075F810428DB7CA200F1B80B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F35FFDBD3A1A9135885B5A9 /* Pods-walkie-talkie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
